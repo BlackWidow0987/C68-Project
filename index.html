@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School website-1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src=""></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my_navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Cults Academy</a>
+        </div>
+        <div class="collapse navbar-collapse" id="my_navbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#">Campus Life</a></li>
+                <li><a href="#">Achievements</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Alumni</a></li>
+                <li><a href="#ContactUs">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="announcement">
+            <marquee id="marqueestyle" onmouseover="this.stop();" onmouseout="this.start();">
+                *** Feel free to ask queries on cultsacademy@aberdeencity.gov.uk ***
+            </marquee>
+        </div>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="ContactUs">
+            <h2 class="text-capitalize text-left">Contact Us</h2>
+        </div>
+        <div id="map" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2166.061728266592!2d-2.1958567340159654!3d57.1189084309406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488410fb1a49f6cf%3A0x807cabaadf0da146!2sCults%20Academy!5e0!3m2!1sen!2suk!4v1677783451638!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div id="Details">
+            <img src="data:image/jpeg;base64,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" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+            <h3>Principal name: </h3>
+            <h4>David Barnett</h4>
+            <div class="contact_1">
+                <a href="mailto:cultsacademy@aberdeencity.gov.uk?Subject=Hi">
+                    <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;cultsacademy@aberdeencity.gov.uk</h5>
+                </a>
+                <a href="#">
+                    <h5><i class="fa fa-twitter"></i>&nbsp;&nbsp;@cultsacademy</h5>
+                </a>
+                <a href="#">
+                    <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;123456789</h5>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
